@@ -1,0 +1,33 @@
+.x {
+  width: 100px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+#b {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+#c {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+#d {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+#e {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}

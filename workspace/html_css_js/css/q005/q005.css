@@ -1,0 +1,23 @@
+#first {
+  background-color: red;
+}
+#second {
+  background-color: orange;
+}
+#third {
+  background-color: yellow;
+}
+#fourth {
+  background-color: green;
+}
+#fifth {
+  background-color: blue;
+}
+.wid {
+  display: flex;
+}
+div {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+}

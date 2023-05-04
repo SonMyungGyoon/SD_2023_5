@@ -1,0 +1,7 @@
+div {
+  border: 2px black solid;
+}
+
+.left_right {
+  display: flex;
+}
