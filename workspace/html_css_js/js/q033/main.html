@@ -4,11 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="main.js"> </script>
+	<link rel="stylesheet" href="styles.css">
 </head>	
 <body>	
 	<input id = "userRCP" type="text" placeholder="가위 바위 보?"/>
 	<input id = "inputBtn" type="button" value ="입력" onclick = "rcpInputBtnClick();">
-	<textarea id = "output"></textarea>
+	<br>
+	<textarea id = "outputArea"rows="4" cols="50" ></textarea>
+
+	<div class = "imgBox">
+		<div> <img  id = "userImg" src="" alt=""></div>
+		VS
+		<div> <img id = "comImg" src="" alt=""></div>
+	</div>
 
 </body>	
 </html>	

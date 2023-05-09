@@ -1,4 +1,12 @@
-var input = prompt("가위 바위 보? :");
+while (true) {
+  var input = prompt("가위 바위 보? :");
+  if (input == "가위" || input == "바위" || input == "보") {
+    break;
+  } else {
+    alert("입력이 잘못되었습니다.");
+  }
+}
+
 var user = 0;
 var computer = Math.floor(Math.random() * 3) + 1;
 document.write("사용자의 입력 : " + input + "<br>");
