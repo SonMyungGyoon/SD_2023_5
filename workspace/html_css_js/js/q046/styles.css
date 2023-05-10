@@ -1,0 +1,14 @@
+.imgBox {
+  display: flex;
+  width: 500px;
+  height: 500px;
+}
+
+#userImg {
+  width: 200px;
+  height: 200px;
+}
+#comImg {
+  width: 200px;
+  height: 200px;
+}
