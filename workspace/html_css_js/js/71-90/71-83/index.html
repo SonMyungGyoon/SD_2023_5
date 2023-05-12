@@ -1,0 +1,48 @@
+<!DOCTYPE html>	
+<head>	
+	
+	<meta charset="UTF-8">
+	<title>Soldesk JS 로그인 - 손명균</title>
+	<link rel="stylesheet" href="styles.css">
+</head>	
+<body>	
+	<div class = "input_box">
+		<form action="" class="login_form">
+			<input type="text" name="id" id="input_id" placeholder="id">
+			<br>
+			<input type="password" name = "password" id = "input_pw" placeholder="password">
+			<br>
+			<input type="button" name = "login" value="로그인" id = "loginBtn" onclick="user_login()">
+			<a href="reg_member.html">
+				<input type="button" name = "reg" value="회원가입" id = "regBtn">
+			</a>
+		</form>
+		<div id = "ment"></div>
+	</div>
+	<br>
+	<div>
+		<form action="" class = "input_form">
+			<input type="text"  pattern = "^[0-9]+$">
+			<input type="submit">
+		</form>
+		<form action="" class = "input_form">
+			<input type="text" pattern = "^[a-zA-Z]+$">
+			<input type="submit">
+		</form>
+		<form action="" class = "input_form">
+			<input type="text" pattern = "^[a-zA-Z\s]+$">
+			<input type="submit">
+		</form>
+		<form action="" class = "input_form">
+			<input type="text" pattern="^[a-zA-Z0-9]+$">
+			<input type="submit">
+		</form>
+		<form action="" class = "input_form" >
+			<input type="text" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+			<input type="submit">
+		</form>
+	</div>
+	
+	<script src="main.js"> </script>
+</body>	
+</html>	

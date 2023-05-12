@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Soldesk JS 회원가입 - 손명균</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="reg.js"></script>
+  </head>
+  <body>
+    <div class="input_box" id="regInputBox">
+      <form action="" class="login_form">
+        <input
+          type="text"
+          id="reg_id"
+          placeholder="id"
+          minlength="6"
+          maxlength="12"
+        />
+        <br />
+        <input
+          type="password"
+          id="reg_pw"
+          placeholder="password"
+          minlength="8"
+          maxlength="20"
+        />
+        <br />
+        <input
+          type="password"
+          id="reg_pw_check"
+          placeholder="password 확인"
+          minlength="8"
+          maxlength="20"
+        />
+        <br />
+        <input type="text" id="reg_name" placeholder="이름" />
+        <br />
+        <input type="text" id="reg_email" placeholder="이메일" />
+        <br />생년월일 :
+        <input
+          type="date"
+          value="2023-05-11"
+          min="1900-01-01"
+          max="2199-12-31"
+        />
+        <br />성별 : <input type="radio" name="reg_gender" value="male" />남성
+        <input type="radio" name="reg_gender" value="female" />여성
+        <br />
+        <input
+          class="phoneNumber"
+          type="number"
+          name="phone_first"
+          value="010"
+        />
+        <input
+          class="phoneNumber"
+          type="number"
+          name="phone_second"
+          value="0000"
+          minlength="3"
+          maxlength="4"
+        />
+        <input
+          class="phoneNumber"
+          type="number"
+          name="phone_third"
+          value="0000"
+          minlength="3"
+          maxlength="4"
+        />
+        <br />
+        <input
+          type="button"
+          value="회원가입"
+          id="regBtn"
+          onclick="user_reg()"
+        />
+      </form>
+      <div id="ment"></div>
+    </div>
+  </body>
+</html>

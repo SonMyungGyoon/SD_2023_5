@@ -1,0 +1,48 @@
+/* css */
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+.top {
+  width: 100%;
+  height: 25%;
+  background-color: red;
+}
+.mid {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: green;
+}
+.bot {
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+}
+
+#popup {
+  width: 250px;
+  height: 200px;
+  background-color: whitesmoke;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  border: darkturquoise dotted 3px;
+  display: inline;
+}
