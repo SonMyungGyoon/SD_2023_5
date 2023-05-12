@@ -4,10 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Soldesk JS 로그인 - 손명균</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="main.js"> </script>
 </head>	
 <body>	
-	<div class = "input_box">
-		<form action="" class="login_form">
+	<div id = "clock_box">
+		<h1> 00 : 00 </h1>
+	</div>
+	<div class = "input_box" id = "input_box2">
+		<form action="" class="login_form" id = "login_input">
 			<input type="text" name="id" id="input_id" placeholder="id">
 			<br>
 			<input type="password" name = "password" id = "input_pw" placeholder="password">
@@ -17,7 +21,6 @@
 				<input type="button" name = "reg" value="회원가입" id = "regBtn">
 			</a>
 		</form>
-		<div id = "ment"></div>
 	</div>
 	<br>
 	<div>
@@ -43,6 +46,5 @@
 		</form>
 	</div>
 	
-	<script src="main.js"> </script>
 </body>	
 </html>	

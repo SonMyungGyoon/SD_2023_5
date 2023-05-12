@@ -8,9 +8,9 @@ body {
   align-items: center;
   background-color: whitesmoke;
 }
-.clock_box {
+#clock_box {
   width: 600px;
-  height: 150px;
+  height: 200px;
   text-align: center;
 }
 .input_box {
