@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>    
+    <link rel="stylesheet" href="main.css">
+
+    <!-- db 역할 js들 -->
+    <script src="db/item/dbItem.js"> </script>
+
+    <script src="display.js"> </script>
+    <script src="Monster.js"> </script>
+    <script src="Npc.js"> </script>
+    <script src="npc_speech.js"> </script>
+    <script src="Character.js"> </script>
+    <script src="Room.js"> </script>
+    <!-- <script src="BagItem.js"> </script> -->
+    <script src="GameItem.js"> </script>
+    <script src="functions.js"> </script>
+    <script src="functions_battle.js"> </script>
+    <script src="functions_bag.js"> </script>
+    <script src="functions_turn.js"> </script>
+    <script src="functions_move.js"> </script>
+    <script src="functions_mob.js"> </script>
+    <script src="functions_command.js"> </script>
+    <script src="functions_room.js"> </script>
+    <script src="functions_inn.js"> </script>
+    <script src="functions_lv.js"> </script>
+    <script src="functions_npc.js"> </script>
+    <script src="functions_reward.js"> </script>
+    <script src="event_listeners.js"> </script>
+    <script src="init_data_monsters.js"> </script>
+    <script src="init_data_rooms.js"> </script>
+    <script src="init_data_items.js"> </script>
+
+    <!-- 메인 js -->
+    <script src="main.js"> </script>
+
+</head>
+<body>
+    <div id="main_area">
+        <p id="version">RPG v0.46.0</p>
+        <textarea id="screen_message_box" readonly="readonly"></textarea>
+        <div id="screen_game_object_new"></div>
+        <div id="screen_game_object_npcs"></div><!-- npc 들 출력 화면 -->
+        <div id="screen_game_object_ground_items"></div><!-- 바닥 아이템들 출력 화면 -->
+        <div id="div_commands"></div><!-- 각종 명령 버튼이 배치 되는 곳 -->
+        <div id="div_current_turn">현재 턴 : <input id="input_txt_turn" value="1" readonly="readonly"></div>
+        <div id="div_exp"></div>
+        <textarea id="screen_player_info" readonly="readonly"></textarea>
+        <div id="div_user_info_bot">
+            <input type="button" value="가방(i)" onclick="displayBagToggle();">
+            <span id="span_gold">0원</span>
+            <div id="div_bag"></div><!-- absolute - div - 가방 -->
+        </div>
+    </div>
+</body>
+</html>
